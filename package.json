@@ -1,0 +1,30 @@
+{
+  "name": "mapgen",
+  "version": "0.1.0",
+  "description": "Generates dungeon-like 2d maps of connected spaces using either random walk or procedural generation from a seed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-c/mapgen.git"
+  },
+  "keywords": [
+    "map-generation",
+    "map-generator",
+    "2d",
+    "2d-map",
+    "dungeon-generator",
+    "dungeon",
+    "random-walk",
+    "random-generation",
+    "procedural-generation"
+  ],
+  "author": "Alexandre Charoy",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/alex-c/mapgen/issues"
+  },
+  "homepage": "https://github.com/alex-c/mapgen#readme"
+}
