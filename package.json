@@ -29,5 +29,8 @@
   "homepage": "https://github.com/alex-c/mapgen#readme",
   "devDependencies": {
     "jasmine": "^3.4.0"
+  },
+  "dependencies": {
+    "seedrandom": "^3.0.3"
   }
 }
