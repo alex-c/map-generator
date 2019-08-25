@@ -5,7 +5,6 @@ function RandomIntegerGenerator(seed) {
     if (typeof seed == 'string') {
       this.rng = seedrandom.alea(seed);
     } else {
-      console.warn('test');
       this.rng = seedrandom.alea(seed.toString());
     }
   } else {
