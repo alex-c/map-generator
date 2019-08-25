@@ -76,7 +76,7 @@ const map = generator.generateMap({
 
 Maps generated with a given seed and the same parameters will always produce the same map!
 
-## Other methors
+## Other methods
 
 Other `MapGenerator` methods that are used internally but are also exposed:
 
