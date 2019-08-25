@@ -68,7 +68,7 @@ MapGenerator.prototype.generateMap = function(mapConfig) {
   let pathLength;
 
   // Start position is a room
-  map[y][x] = 2;
+  map[y][x] = 1;
 
   // Generate paths
   for (let i = 0; i < config.numberOfPaths; i++) {
