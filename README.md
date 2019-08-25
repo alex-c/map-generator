@@ -1,6 +1,6 @@
-# mapgenerator
+# map-generator
 
-`mapgenerator` generates dungeon-like 2d maps of connected spaces using either random walk or procedural generation from a seed. Maps are generated as arrays of number arrays, in which 0 means there is no path/room at the given coordinates, and 1 means that there is.
+`map-generator` generates dungeon-like 2d maps of connected spaces using either random walk or procedural generation from a seed. Maps are generated as arrays of number arrays, in which 0 means there is no path/room at the given coordinates, and 1 means that there is.
 
 Example output:
 
@@ -31,7 +31,7 @@ y=0 | 0 | 0 | 0 | 0 | 1 |
 
 ## Installation
 
-Install with `npm`: `npm install --save mapgenerator`.
+Install with `npm`: `npm install --save @alex-c/map-generator`.
 
 ## Usage
 
@@ -39,7 +39,7 @@ The package exposes a `MapGenerator` class.
 
 ```javascript
 // Import package
-const MapGenerator = require('mapgenerator');
+const MapGenerator = require('@alex-c/map-generator');
 
 // Instantiate a generator
 const generator = new MapGenerator();

@@ -1,5 +1,5 @@
 {
-  "name": "mapgenerator",
+  "name": "@alex-c/map-generator",
   "version": "0.1.0",
   "description": "Generates dungeon-like 2d maps of connected spaces using either random walk or procedural generation from a seed.",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alex-c/mapgenerator.git"
+    "url": "git+https://github.com/alex-c/map-generator.git"
   },
   "keywords": [
     "map-generation",
@@ -25,9 +25,9 @@
   "author": "Alexandre Charoy",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/alex-c/mapgenerator/issues"
+    "url": "https://github.com/alex-c/map-generator/issues"
   },
-  "homepage": "https://github.com/alex-c/mapgenerator#readme",
+  "homepage": "https://github.com/alex-c/map-generator#readme",
   "devDependencies": {
     "jasmine": "^3.4.0"
   },

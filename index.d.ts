@@ -1,5 +1,5 @@
-// Type definitions for mapgenerator 0.1.0
-// Project: mapgenerator
+// Type definitions for @alex-c/map-generator 0.1.0
+// Project: @alex-c/map-generator
 // Definitions by: Alexandre Charoy <https://github.com/alex-c>
 
 export = MapGenerator;
