@@ -4,7 +4,7 @@
   "description": "Generates dungeon-like 2d maps of connected spaces using either random walk or procedural generation from a seed.",
   "main": "index.js",
   "scripts": {
-    "test": "node node_modules/jasmine/bin/jasmine.js"
+    "test": "node node_modules/jasmine/bin/jasmine.js --config=spec/support/jasmine.json"
   },
   "repository": {
     "type": "git",
