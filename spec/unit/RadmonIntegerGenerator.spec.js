@@ -7,7 +7,7 @@ function numbersAreInRange(numbers, min, max) {
   }
 }
 
-describe('RandomIntegergenerator tests', function() {
+describe('RandomIntegergenerator:', function() {
   let generator;
 
   describe('random generation', function() {
@@ -19,6 +19,18 @@ describe('RandomIntegergenerator tests', function() {
         numbers.push(generator.random(0, 5));
       }
       numbersAreInRange(numbers, 0, 5);
+    });
+  });
+
+  describe('seeded generation', function() {
+    generator = new RandomIntegerGenerator('test');
+
+    it('should produce exactly the 5 expected integers', function() {
+      const numbers = [];
+      for (let i = 0; i < 5; i++) {
+        numbers.push(generator.random(0, 10));
+      }
+      expect(numbers).toEqual([0, 4, 1, 0, 7]);
     });
   });
 });

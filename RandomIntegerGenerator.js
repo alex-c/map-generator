@@ -1,5 +1,16 @@
-function RandomIntegerGenerator(rng) {
-  this.rng = rng || Math.random;
+const seedrandom = require('seedrandom');
+
+function RandomIntegerGenerator(seed) {
+  if (seed) {
+    if (typeof seed == 'string') {
+      this.rng = seedrandom.alea(seed);
+    } else {
+      console.warn('test');
+      this.rng = seedrandom.alea(seed.toString());
+    }
+  } else {
+    this.rng = Math.random;
+  }
 }
 
 RandomIntegerGenerator.prototype.random = function(min, max) {
